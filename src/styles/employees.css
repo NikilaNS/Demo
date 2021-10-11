@@ -1,0 +1,92 @@
+.employees-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.employees-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.employees-list-header {
+    width: 100%;
+    height: 50px;
+    background-color: #FF8C00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees-list-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.employees-table {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    align-items: center;
+}
+
+.employees-table-container {
+    width: 900px;
+    height: 542px;   
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0 15px;
+    border-top: 1px solid grey;
+    overflow: scroll;
+    height: 545px;
+}
+
+th {
+    width: 50%;
+    height: 25px;
+    border: 2px solid white;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;   
+    background-color: #FF8C00;
+}
+
+td {
+    height: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #161616;
+    background-color: #ffffff;
+    border-style:  hidden!important;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.update-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #00008B;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
