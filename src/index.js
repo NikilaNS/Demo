@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Employees from '../src/components/employees';
+import Form from '../src/components/form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Employees />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
